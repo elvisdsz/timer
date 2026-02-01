@@ -1,6 +1,6 @@
 function ModeToggle({ mode, onModeChange, disabled }) {
   return (
-    <div className={`inline-flex rounded-lg p-1 bg-slate-100 dark:bg-slate-700 ${disabled ? 'opacity-50' : ''}`}>
+    <div className={`inline-flex rounded-lg p-1 bg-slate-200 dark:bg-slate-700 ${disabled ? 'opacity-50' : ''}`}>
       <button
         onClick={() => !disabled && onModeChange('stopwatch')}
         disabled={disabled}

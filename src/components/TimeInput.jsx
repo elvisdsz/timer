@@ -7,7 +7,7 @@ function TimeInput({ hours, minutes, seconds, onChange }) {
     onChange({ hours, minutes, seconds, [field]: clamped });
   };
 
-  const inputClass = "h-[1em] p-0 leading-none bg-transparent text-center focus:outline-none focus:bg-slate-100 dark:focus:bg-slate-700 rounded";
+  const inputClass = "h-[1em] p-0 leading-none bg-transparent text-center focus:outline-none focus:bg-slate-200 dark:focus:bg-slate-700 rounded";
 
   return (
     <div className="font-mono text-4xl sm:text-6xl font-semibold text-slate-800 dark:text-slate-100 tracking-tight leading-none">

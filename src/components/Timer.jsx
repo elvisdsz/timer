@@ -84,7 +84,7 @@ function Timer() {
         )}
         <button
           onClick={reset}
-          className="px-6 sm:px-8 py-3 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-lg font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors"
+          className="px-6 sm:px-8 py-3 bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-lg font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors"
         >
           Reset
         </button>
